@@ -36,7 +36,6 @@ public class RubExmplGoToRegMailDomainOnYandexService {
         popUpAuthPageMailRu = new PopUpAuthPageMailRu(driver);
 
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.navigate().to(ConfProperties.getProperty("loginPage"));
         yandexTab = driver.getWindowHandle();
 
