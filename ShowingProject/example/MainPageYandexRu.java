@@ -7,9 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MainPageYandexRu {
 
-    /**
-     * конструктор класса, занимающийся инициализацией полей класса
-     */
     public WebDriver driver;
 
     public MainPageYandexRu(WebDriver driver) {

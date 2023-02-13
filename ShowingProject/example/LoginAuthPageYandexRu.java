@@ -53,8 +53,7 @@ public class LoginAuthPageYandexRu {
     @FindBy(xpath = "//input[@dir = 'ltr']")
     private WebElement enterSecretYandexField;
 
-    public void inputSecretMailCodeInYandexFinishTest() throws InterruptedException {
-        System.out.println("Here?");
+    public void inputSecretMailCodeInYandexFinishTest() {
         driver.switchTo().window(yandexTab);
         enterSecretYandexField.sendKeys(authPageInsideBoxMailRu.getSecretCodeFromMessage());
         submitYandexSecretButton.click();

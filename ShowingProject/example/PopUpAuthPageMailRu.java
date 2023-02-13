@@ -14,7 +14,6 @@ public class PopUpAuthPageMailRu {
         this.driver = driver;
     }
 
-    //SupposedFrame
     @FindBy(xpath = "//iframe[@class='ag-popup__frame__layout__iframe']")
     private WebElement modPop;
 

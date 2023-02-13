@@ -55,7 +55,7 @@ public class RubExmplGoToRegMailDomainOnYandexService {
     }
 
     @Test
-    public void authYaRu() throws InterruptedException {
+    public void authYaRu() {
 
         mainPageYandexRu.buttonToGoEnterLoginField();
         mainPageYandexRu.clickForChooseAuthMeth();
